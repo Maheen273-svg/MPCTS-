@@ -1,5 +1,6 @@
 # MPCTS-
 Minuwngoda President's College Tech society,
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -9,67 +10,79 @@ Minuwngoda President's College Tech society,
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: #f8f9fa;
     }
+
     header {
-      background-color: #222;
+      background-color: #343a40;
       color: white;
       display: flex;
       align-items: center;
       padding: 1rem 2rem;
     }
+
     header img {
       height: 50px;
       margin-right: 15px;
     }
+
     header h1 {
+      font-size: 1.8rem;
       margin: 0;
     }
-    .content {
+
+    .main-content {
       text-align: center;
-      padding: 3rem 1rem;
+      padding: 3rem 2rem;
     }
-    .content h2 {
+
+    .main-content h2 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
-    .content p {
-      max-width: 600px;
+
+    .main-content p {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 700px;
       margin: 0 auto 2rem;
     }
+
     .form-button {
+      display: inline-block;
+      padding: 12px 24px;
       background-color: #007BFF;
       color: white;
-      padding: 0.75rem 1.5rem;
-      font-size: 1rem;
       border: none;
-      border-radius: 5px;
+      border-radius: 6px;
       text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s ease;
     }
+
     .form-button:hover {
       background-color: #0056b3;
     }
+
     footer {
-      background-color: #222;
+      background-color: #343a40;
       color: white;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="https://via.placeholder.com/50" alt="Logo">
+    <img src="assets/logo.png" alt="Site Logo" />
     <h1>Innovations & Designs</h1>
   </header>
 
-  <div class="content">
-    <h2>Creative Innovations for a Better Tomorrow</h2>
-    <p>We bring fresh ideas and unique designs to life. Stay ahead of the curve by connecting with our innovative platform.</p>
-    <a href="https://forms.gle/your-google-form-link" class="form-button" target="_blank">Fill Out the Form</a>
+  <div class="main-content">
+    <h2>Explore New Ideas & Modern Designs</h2>
+    <p>Join our mission to revolutionize creativity. Share your thoughts, designs, and feedback with us.</p>
+    <a href="https://forms.gle/your-google-form-link" target="_blank" class="form-button">Fill the Google Form</a>
   </div>
 
   <footer>
