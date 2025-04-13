@@ -1,6 +1,5 @@
 # MPCTS-
 Minuwngoda President's College Tech society,
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
